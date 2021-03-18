@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Formular';
+    src: url('Formular-Black.eot');
+    src: url('Formular-Black.eot?#iefix') format('embedded-opentype'),
+        url('Formular-Black.woff2') format('woff2'),
+        url('Formular-Black.woff') format('woff'),
+        url('Formular-Black.ttf') format('truetype'),
+        url('Formular-Black.svg#Formular-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
