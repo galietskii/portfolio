@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 <body>
+<div class="wrapper">
    <section class="section-header">
-       <div class="container">
-            <nav class="page-navigation">
-                <img src="images/buttonMenu.svg" alt="navigation">
+    <nav class="page-navigation">
+                <img class="button-burger" src="images/buttonMenu.svg" alt="navigation">
                 <ul class="page-navigation__list">
                     <li> <a href="#section-01" class="goto">Try&amp;Buy. Як це працює?</a> </li>
                     <li> <a href="#section-05" class="goto">Що входить у пакет навчання?</a> </li>
@@ -21,6 +21,8 @@
                     <li> <a href="#section-13" class="goto">Відповіді на часті запитання</a></li>
                 </ul>
             </nav>
+            
+       <div class="container">
            <h1 class="title">Tommy</h1>
            <p class="text__about__course">Онлайн-курс / Рівень: з нуля / Тривалість: 2 місяці</p>
            <h2 class="title__start__course">Cтарт:<span class="title__season">5 листопада</span></h2>
@@ -529,6 +531,17 @@
 <!-- section subscription -->
 <section class="subscription">
     <div class="container">
+        <div class="subscription-all">
+            <h5 class="text-subscription">
+                Підписуйся на перший тиждень повноцінного навчання, переконайся в якості та продовжуй 
+                його за повну вартість
+            </h5>
+            <div class="item__button">
+                <button class="button">Зареєструватись на тестових 7 днів</button>
+                <img class="left-arrow" src="images/left.svg" alt="">
+                <img class="right-arrow" src="images/right.svg" alt="">
+            </div>
+        </div>
         <div class="flex-subscription">
             <div class="block-text-subscription">
                 <h5 class="text-subscription">
@@ -611,7 +624,10 @@
         </div>
     </div>
 </section>
+</div>
 
+    <script src="vendors.js"></script>
+    <script src="jquery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

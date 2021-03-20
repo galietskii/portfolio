@@ -1,15 +1,12 @@
-const name = document.querySelector('.name').onclick = function()
-{
-    const promptName = prompt('Enter your name');
-    let nameText = document.querySelector('.name-text').innerText = promptName;
-}
-const course = document.querySelector('.course').onclick = function()
-{
-    const promptCourse = prompt('Enter your course');
-    let courseText = document.querySelector('.course-text').innerText = promptCourse;
-}
-const animal = document.querySelector('.animal').onclick = function()
-{
-    const promptAnimal = prompt('Enter your course');
-    let animalText = document.querySelector('.animal-text').innerText = promptAnimal;
-}
+let popup = document.querySelector('.page-navigation__list');
+let open = document.querySelector('.button-burger');
+popup.style.display = 'none';
+popup.style.height = '0';
+
+open.addEventListener("click",      function() {
+	open.style.display = 'none';
+    if(popup.style.display == 'none')  
+    popup.style.display = 'block';
+    else popup.style.display = 'none';
+    
+  });

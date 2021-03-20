@@ -1,23 +1,36 @@
+@charset "UTF-8";
 @font-face {
-    font-family: 'Formular';
-    src: url('../css/Formular-Black.eot');
-    src: url('../css/Formular-Black.eot?#iefix') format('embedded-opentype'),
-        url('../css/Formular-Black.woff2') format('woff2'),
-        url('../css/Formular-Black.woff') format('woff'),
-        url('../css/Formular-Black.ttf') format('truetype'),
-        url('../css/Formular-Black.svg#Formular-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+  font-family: 'Source Code Pro';
+  src: url("../fonts/SourceCodePro-Regular.woff2") format("woff2"), url("../fonts/SourceCodePro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url("../fonts/SourceCodePro-It.woff2") format("woff2"), url("../fonts/SourceCodePro-It.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Formular';
+  src: url("../fonts/Formular-Bold.woff2") format("woff2"), url("../fonts/Formular-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Formular', Arial, sans-serif;
+    font-family: 'Formular',sans-serif;
+}
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }
 .container {
     max-width: 1120px;
@@ -26,22 +39,29 @@ body {
 ul li {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 .page-navigation {
     width: 32px;
     height: 32px;
-    left: 1296px;
+    right: 10px;
     top: 168px;
     z-index: 100;
     position: fixed !important;
 }
 .page-navigation__list {
-    display: none;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    transition-duration: 1s;
 }
 .page-navigation__list li {
     margin-bottom: 8px;
+    width: 300px;
+    text-align: right;
 }
 .page-navigation__list a {
-    width: 231px;
     text-align: right;
     color: inherit;
     padding: 3px 8px 3px 8px;
@@ -52,6 +72,7 @@ ul li {
     display: inline-block;
     background-color: #fff;
     border: 1px solid #000;
+    font-family: 'Source Code Pro', monospace;
 } 
 .title{
     font-style: normal;
@@ -94,6 +115,7 @@ ul li {
     font-weight: bold;
     margin-top: 80px;
 }
+
 .intro__column-icon {
     position: absolute;
     width: 127px;
@@ -117,7 +139,7 @@ ul li {
     width: 288px;
 }
 .text__profession {
-    font-family: 'Formular';
+    font-family: 'Formular',sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -234,7 +256,6 @@ ul li {
 /* ---------------------------- section intro --------------------------  */
 .section-intro {
     background: #000000;
-    max-width: 1279px;
     margin: 0 auto;
     padding: 1px;
     opacity: 0.8;
@@ -314,11 +335,7 @@ ul li {
 
 /*-------------------- Section training---------------------- */
 
-.intro-training {
-    background: rgba(0, 0, 0, 0.829);
-    max-width: 1279px;
-    margin: 0 auto;
-}
+
 .background-tommy {
     background: #00FA9A;
 }
@@ -351,7 +368,7 @@ ul li {
     color: black;
 }
 .text-work-it {
-    font-family: Source Code Pro, monospace;
+    font-family: Source Code Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -385,7 +402,7 @@ ul li {
     margin: auto;
 }
 .text-name {
-    font-family: Source Code Pro, monospace;
+    font-family: Source Code Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -396,7 +413,7 @@ ul li {
 /* Продолжение туть */
 .intro-training {
     background: rgba(0, 0, 0, 0.829);
-    max-width: 1279px;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 120px;
 }
@@ -568,7 +585,7 @@ ul li {
     margin-top: 24px;
 }
 .text__month {
-    font-family: 'Source Code Pro',monospace;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -703,7 +720,7 @@ ul li {
 }
 .list__module {
     list-style: outside;
-    font-family: 'Source Code Pro',monospace;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -807,7 +824,7 @@ ul li {
     grid-gap: 30px;
 }
 .history{
-    font-family: 'Formular', monospace;
+    font-family: 'Formular';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -837,7 +854,7 @@ ul li {
     margin: auto;
 }
 .tommy_diplom-under_header_text{
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -890,6 +907,10 @@ ul li {
     margin-bottom: 64px;
 }
 /* subscription */
+.subscription-all {
+    width: 800px;
+    margin-top: 118px;
+}
 .flex-subscription {
     display: flex;
     justify-content: space-between;
@@ -995,7 +1016,7 @@ ul li {
     padding-bottom: 41px;
 }
 .block__contacts p{
-    font-family: 'Source Code Pro',monospace;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1030,7 +1051,7 @@ ul li {
     margin: auto;
 }
 .item__test-period p{
-    font-family: 'Source Code Pro',monospace;
+    font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
