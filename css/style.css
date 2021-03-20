@@ -639,7 +639,6 @@ a {
 .info-trening{
     
     background:#00FA9A;
-    max-width: 1279px;
     height: 664px;
     margin: 0 auto;
     
@@ -673,17 +672,16 @@ a {
     max-width: 1120px;
     background-color: white;
     padding: 48px;
-    max-width: 799px;
-    max-height: 344px;
     position: relative;
 }
 
-.info_work-text{
+.info_work-text {
     font-family: 'Source Code Pro', monospace;
     font-style: italic;
     font-weight: normal;
     font-size: 24px;
     line-height: 40px;
+    width: 799px;
 }
 .info_work-text span {
     font-weight: bold;
