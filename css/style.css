@@ -27,6 +27,34 @@ body {
     padding: 0;
     font-family: 'Formular',sans-serif;
 }
+.accordion {
+    border: none;
+    outline: none;
+    margin-bottom: -10px;
+}
+
+.accordion:after {
+    content: url('../images/line.svg');
+    margin-right: 32px;
+    color: #fff;
+  font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: url('../images/lineup.svg');
+    margin-right: 32px;
+}
+
+.panel {
+  color: #212121;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
 .wrapper {
     width: 100%;
     min-height: 100%;
@@ -715,9 +743,7 @@ a {
 .arrow-info {
     margin-right: 32px;
 }
-.list__modules {
-    margin-top: 40px;
-}
+
 .list__module {
     list-style: outside;
     font-family: 'Source Code Pro', monospace;
