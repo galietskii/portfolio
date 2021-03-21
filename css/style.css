@@ -80,9 +80,11 @@ a {
 }
 .page-navigation__list {
     position: absolute;
-    height: 100%;
+    top: -10px;
     right: 0;
-    transition-duration: 1s;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
 }
 .page-navigation__list li {
     margin-bottom: 8px;
@@ -102,6 +104,16 @@ a {
     border: 1px solid #000;
     font-family: 'Source Code Pro', monospace;
 } 
+.actives{
+    content: url('../images/page-back.png');
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
 .title{
     font-style: normal;
     font-weight: 900;
@@ -685,6 +697,13 @@ a {
 }
 .info_work-text span {
     font-weight: bold;
+}
+.goto {
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
 }
 .logo_sign{
     position: absolute;
