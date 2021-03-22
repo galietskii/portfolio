@@ -195,4 +195,210 @@
     .flex__video-it {
         margin-top: 0;
     }
+    .second-video {
+        display: none;
+    }
+    .title-name {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .text-name {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .slider {
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider ul {
+        display: flex;
+        margin-left: -20px;
+    }
+    .link-slider {
+        width: 8px;
+        height: 8px;
+        background-color: #00FA9A;
+        border-radius: 50px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .prev, .next {
+        cursor: pointer;
+        transition: 0.6s ease;
+    }
+    .fade{
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from{opacity: 4}
+        to{opacity: 1}
+    }
+    .title-list__study {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .list {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+    .list__study {
+        margin-top: 0; 
+        margin-left: 0; 
+        padding-bottom: 42px;
+    }
+    .packet-intro {
+        margin-top: 168px;
+    }
+    .all-packet{
+        background-image: none;
+        position: relative;
+        border: 1px solid #000000;
+        background-color: #fff;
+        padding-top: 207px;
+    }
+    .all-packet::after{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        top: 10px;
+        left: 9px;
+        z-index: -1;
+    }
+    .full-packet {
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+    .list__study {
+        padding: 0 20px;
+    }
+    .two-holes {
+        position: absolute;
+        left: 82px;
+        top: 53px;
+    }
+    .shadow-tag {
+        position: absolute;
+        top: 47px;
+        left: 144px;
+    }
+    .rope {
+        position: absolute;
+        top: 31px;
+        left: 158px;
+    }
+    .tag {
+        position: absolute;
+        top: 46px;
+        left: 135px;
+    }
+    .first-handle {
+        position: absolute;
+        top: -72px;
+        left: 89px;
+    }
+    .second-handle {
+        position: absolute;
+        top: -104px;
+        left: 110px;
+        z-index: -1;
+    }
+    .title-list__study span {
+        display: block;
+    }
+    .item-cards {
+        margin-top: 64px;
+        flex-wrap: wrap;
+        margin-bottom: 120px;
+    }
+    .logo-photo-card{
+        display: none;
+    }
+    .card {
+        margin-left: auto;
+        margin-bottom: 64px;
+    }
+    .title-card {
+        padding-bottom: 0;
+    }
+    .title-card span {
+        display: block;
+        margin-top: auto;
+    }
+    .price-card {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .button-card {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        padding: 16px 47px;
+    }
+    .title-card-price {
+        font-size: 18px;
+        line-height: 24px;
+        width: 168px;
+    }
+    .text-card-price {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .header-card-price {
+        margin: 31px 33px;
+    }
+    .line-card {
+        padding-bottom: 0; 
+    }
+    .title-card-price-month {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .text-card-price-month {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .text__month {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card img {
+        left: 246px;
+        top: 119px;
+    }
+    .info_work-text {
+        font-size: 14px;
+        line-height: 20px;
+        width: 280px;
+    }
+    .logo_sign {
+        position: absolute;
+        top: -23px;
+    }
+    .logo_sign img{
+        width: 73px;
+    }
+    .work_conteiner {
+        padding: 16px 26px;
+    }
+    .info-trening {
+        height: auto;
+        margin: 0 auto;
+    }
+    .work_stude {
+        padding: 104px 0;
+        height: auto;
+    }
+    .info_text-tommy {
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 21px;
+    }
 }

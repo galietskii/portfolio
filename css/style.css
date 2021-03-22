@@ -455,6 +455,10 @@ a {
     margin-top: 8px;
     
 }
+.slider {
+    display: none;
+}
+
 /* Продолжение туть */
 .intro-training {
     background: rgba(0, 0, 0, 0.829);
@@ -514,6 +518,10 @@ a {
 .list__about {
     margin-top: 40px;
 }
+.full-packet {
+    display: none;
+}
+
 /* Block card */
 .item-cards {
     position: relative;
@@ -551,6 +559,7 @@ a {
     margin-left: 39px;
     width: 271px;
 }
+
 .main-card {
     text-align: center;
 }

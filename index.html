@@ -185,8 +185,8 @@
                <p class="text-work-it">Відзняли інтерв'ю про умови роботи та вакансії. <span> Переглянь та зрозумій, які перспективи для тебе відкриються.</span></p>
            </div>
            <div class="flex__video-it">
-               <div class="first-video">
-                <img class="left-slide" src="images/right.svg" alt="">
+               <div class="first-video mySlides fade">
+                <img class="right-slide" src="images/left.svg" alt="" >
                 <div class="item-video__job video">
                     <img class="girl-image-manager" src="images/girlmanager2.png" alt="Alina Pasevina">
                     <img class="video-image__job-manager" src="images/videojob.svg" alt="">
@@ -197,9 +197,9 @@
                     <p class="text-name">SEO в компании SoftServe</p>
                 </div>
                </div>
-               <div class="second-video">
-                <div class="item-video__job">
-                    <img src="images/girlmanager.png" alt="Alina Pasevina">
+               <div class="second-video fade">
+                <div class="item-video__job video">
+                    <img class="girl-image" src="images/girlmanager.png" alt="Alina Pasevina">
                     <img class="video-image__job-manager" src="images/videojob.svg" alt="">
                     <img class="button__onclick-video" src="images/buttonclickvideo.svg" alt="">
                 </div>
@@ -207,16 +207,39 @@
                     <h5 class="title-name">Аліна Пасевіна</h5>
                     <p class="text-name">SEO в компании SoftServe</p>
                 </div>
-                <img class="right-slide" src="images/left.svg" alt="">
-               </div>
+            </div>
+            <div class="second-video mySlides fade">
+                <div class="item-video__job video">
+                    <img class="girl-image" src="images/girlmanager.png" alt="Alina Pasevina">
+                    <img class="video-image__job-manager" src="images/videojob.svg" alt="">
+                    <img class="button__onclick-video" src="images/buttonclickvideo.svg" alt="">
+                </div>
+                <div class="item-about__manager">
+                    <h5 class="title-name">Аліна Пасевіна</h5>
+                    <p class="text-name">SEO в компании SoftServe</p>
+                </div>
+            </div>
+            <img class="left-slide" src="images/right.svg" alt="" >
            </div>
+           <div class="slider">
+            <img class="prev" src="images/right.svg" alt="" onclick="plusSlides(-1)">
+            <ul>
+                <li class="list-slider"><a class="link-slider" href="#" onclick="currentSlide(1)"></a></li>
+                <li class="list-slider"><a class="link-slider" href="#" onclick="currentSlide(2)"></a></li>
+                <li class="list-slider"><a class="link-slider" href="#" onclick="currentSlide(3)"></a></li>
+                <li class="list-slider"><a class="link-slider" href="#" onclick="currentSlide(4)"></a></li>
+                <li class="list-slider"><a class="link-slider" href="#" onclick="currentSlide(5)"></a></li>
+                <li class="list-slider"><a class="link-slider" href="#" onclick="currentSlide(6)"></a></li>
+            </ul>
+            <img class="list-right next" src="images/left.svg" alt="" onclick="plusSlides(1)">
+        </div>
        </div>
    </section>
    <section class="packet-intro">
        <div class="container">
            <div class="all-packet">
                 <div class="list__study">
-                    <h5 class="title-list__study">Що входить у пакет навчання:</h5>
+                    <h5 class="title-list__study">Що входить<span> у пакет навчання:</span></h5>
                     <ul class="list__about">
                         <li class="list">Доступ до всіх модулів курсу</li>
                         <li class="list">Домашні завдання</li>
@@ -227,6 +250,14 @@
                         <li class="list">Сертифікація та захист дипломної роботи</li>
                         <li class="list">Підтримка 3 місяці кураторами після початку курсу</li>
                     </ul>
+                    <div class="full-packet">
+                        <img class="second-handle" src="images/packet/second-handle.svg" alt="">
+                        <img class="two-holes" src="images/packet/two-list.svg" alt="">
+                        <img class="shadow-tag" src="images/packet/shadow-mark.svg" alt="">
+                        <img class="tag" src="images/packet/marka.svg" alt="">
+                        <img class="rope" src="images/packet/rope.svg" alt="">
+                        <img class="first-handle" src="images/packet/first-handle.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,10 +266,10 @@
    <div class="section__card">
        <div class="container">
            <div class="item-cards">
-            <img src="images/logosign.svg" alt="logo">
+            <img class="logo-photo-card" src="images/logosign.svg" alt="logo">
                 <div class="card">
                     <div class="header-card item-header-card">
-                        <h5 class="title-card">Зареєструватись на тестових 7 днів</h5>
+                        <h5 class="title-card">Зареєструватись<span> на тестових 7 днів</span></h5>
                     </div>
                     <div class="main-card">
                         <p class="price-card">0 грн</p>
