@@ -63,6 +63,7 @@ body {
 .container {
     max-width: 1120px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 ul li {
     list-style: none;
@@ -1117,3 +1118,4 @@ a {
     background-color: #00FA9A;
     padding: 20px 116px;
 }
+@import "../css/mobile.css" screen;
