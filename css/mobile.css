@@ -15,7 +15,7 @@
         flex-direction: column-reverse;
     }
     .intro__column-icon {
-        left: 266px;
+        left: 275px;
         top: 88px;
     }
     .intro__column-icon img{
@@ -23,7 +23,7 @@
     }
     .page-navigation {
         top: 16px;   
-        right: 57px;
+        right: 54px;
     }
     .title__start__course {
         margin-top: 16px;
@@ -58,7 +58,8 @@
         margin-top: 40px;
     }
     .button {
-        padding: 20px 79px;
+        width: 100%;
+        padding: 18px 59px;
         font-size: 18px;
         line-height: 24px;
     }
