@@ -130,4 +130,68 @@
         font-size: 14px;
         line-height: 20px;
     }
+    .item__about-job-manager {
+        width: 100%;
+    }
+    .video-image__job-manager {
+        width: 326px;
+    }
+    .video {
+        width: 326px;
+        margin-left: auto;
+        text-align: center;
+    }
+    .item-logo__sign-pay img{
+        width: 129px;
+    }
+    .girl-image {
+        height: 190px;
+    }
+    .title-pay {
+        font-size: 24px;
+        line-height: 32px;
+        width: 264px;
+    }
+    .text-pay {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .flex__about-pay {
+        position: relative;
+    }
+    .item-logo__sign-pay {
+        position: absolute;
+        right: -36px;
+        top: -50px;
+    }
+    .intro-training {
+        margin-top: 40px;
+    }
+    .text-tommy {
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 25px;
+    }
+    .item-tommy-line {
+        margin-left: -21px;
+    }
+    .title-work-it {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .text-work-it {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .text-work-it span {
+        display: inline;
+    }
+    .girl-image-manager {
+        content: url('https://image.winudf.com/v2/image1/bW9yaXMud2hpdGVfc2NyZWVuXzBfMTU0OTI5MDk2OF8wNTM/screen-0.jpg?fakeurl=1&type=.jpg');
+        width: 328px;
+        height: 190px;
+    }
+    .flex__video-it {
+        margin-top: 0;
+    }
 }

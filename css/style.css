@@ -415,6 +415,9 @@ a {
     font-size: 18px;
     line-height: 24px;
 }
+.text-work-it span {
+    display: block;
+}
 .flex__video-it {
     display: flex;
     justify-content: space-between;
