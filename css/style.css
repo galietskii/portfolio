@@ -217,12 +217,12 @@ a {
 .left-arrow {
     position: absolute;
     left: 47px;
-    top: 18px;
+    top: 25px;
 }
 .right-arrow {
     position: absolute;
-    left: 361px;
-    top: 18px;
+    left: 608px;
+    top: 25px;
 }
 /*-------------------------- Section Main-------------------------- */
 
@@ -485,6 +485,10 @@ a {
 }
 /* ---------------section packet-------------------------------- */
 
+.container-packet {
+    max-width: 1120px;
+    margin: 0 auto;
+}
 .all-packet {
     background-image: url('../images/packet.svg');
     background-position: bottom;

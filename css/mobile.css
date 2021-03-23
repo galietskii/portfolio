@@ -15,22 +15,22 @@
         flex-direction: column-reverse;
     }
     .intro__column-icon {
-        left: 275px;
+        left: 278px;
         top: 88px;
     }
     .intro__column-icon img{
         width: 72px;
     }
     .page-navigation {
-        top: 16px;   
-        right: 54px;
+        top: 16px;
+        right: 56px;
     }
     .title__start__course {
         margin-top: 16px;
         font-size: 18px;
     }
     .title__season {
-        padding: 4px;
+        padding: 4px 8px;
         font-size: 18px;
     }
     .flex__profession {
@@ -246,21 +246,23 @@
         margin-top: 16px;
     }
     .list__study {
-        margin-top: 0; 
-        margin-left: 0; 
-        padding-bottom: 42px;
+        padding: 0 20px;
+        border: 1px solid black;
+        margin-left: 0;
+        padding-top: 207px;
     }
     .packet-intro {
         margin-top: 168px;
     }
-    .all-packet{
+    .all-packet {
         background-image: none;
         position: relative;
-        border: 1px solid #000000;
+        /* border: 1px solid #000000; */
         background-color: #fff;
-        padding-top: 207px;
+        padding-top: 0px;
+        margin-right: 23px;
     }
-    .all-packet::after{
+    .list__study::after{
         content: '';
         display: block;
         position: absolute;
@@ -275,9 +277,6 @@
         display: block;
         position: absolute;
         top: 0;
-    }
-    .list__study {
-        padding: 0 20px;
     }
     .two-holes {
         position: absolute;
@@ -400,5 +399,145 @@
         font-size: 14px;
         line-height: 20px;
         margin-right: 21px;
+    }
+    .course__program {
+        border: none;
+    }
+    .title__program {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .item-module {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .select__modules p {
+        display: block;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .list__module {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .list-technical-module li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .list-technical-module p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .work-present {
+        background: none;
+    }
+    .item-module {
+        width: 250px;
+    }
+    .speakers_course {
+        margin-left: 16px;
+    }
+    .speakers_course-header_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .speakers_conteiner {
+        grid-template-columns: repeat(1,auto);
+        width: 100%;
+        background: none;
+        grid-gap: 16px;
+    }
+    .speakers_card-left img{
+        width: 100%;
+    }
+    .speakers_teacher {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .under-speakers_teacher {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .speakers_card-left {
+        background: #00FA9A;
+    }
+    .speakers_card-right img {
+        width: 100%;
+    }
+    .history-students-header {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .history-students-header {
+        width: 328px;
+    }
+    .students {
+        margin-top: 64px;
+        padding: 0 16px;
+    }
+    .history {
+        font-size: 14px;
+        line-height: 20px;
+        width: 240px;
+    }
+    .diplom-conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 16px;
+    }
+    .tommy_diplom-header_text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .tommy_diplom-under_header_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .diplom img {
+        width: 100%;
+    }
+    .training-going {
+
+        margin-right: 2%;
+    }
+    .training__text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .list-of__training {
+        flex-wrap: wrap;
+    }
+    .item__lessons {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .item__about-lessons {
+        font-size: 14px;
+        line-height: 20px;
+        width: 327px;
+    }
+    .text-subscription {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .subscription-all {
+        width: 328px;
+        margin-top: 64px;
+    }
+    .flex-subscription {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-top: 64px
+    }
+    .flex-subscription img {
+        margin-left: 33px;
+    }
+    .block-text-subscription p {
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .block-text-subscription {
+        width: 328px;
     }
 }
