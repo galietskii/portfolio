@@ -1008,13 +1008,14 @@ a {
     font-weight: bold;
     font-size: 32px;
     line-height: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 58px;
 }
 .item-questions {
-    margin-top: 130px;
+    margin-top: 208px;
 }
 .question__about-project {
-    width: 42%;
+    width: 50%;
+    margin-top: -95px;
 }
 .question__about-project h4{
     font-family: 'Formular', sans-serif;
@@ -1060,9 +1061,10 @@ a {
 /* FOOTER */
 .footer {
     background-image: url('../images/background-footer.svg');
-    background-size: cover;
+    background-size: unset;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 20px 0px 40px 0px;
     padding-bottom: 200px;
 }
 .toomy-footer {
@@ -1071,6 +1073,16 @@ a {
     background-color: black;
     max-width: 688px;
     margin: 0 auto;
+}
+.toomy-footer:before {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
 }
 .block__contacts {
     padding-top: 36px;
@@ -1101,7 +1113,7 @@ a {
     max-width: 624px;
     margin: 0 auto;
     top: 320px;
-    left: 66px;
+    left: 43px;
 }
 .item__test-period h6{
     font-family: 'Formular',sans-serif;
@@ -1124,6 +1136,19 @@ a {
     position: absolute;
     top: 400px;
     left: 130px;
+}
+.button-all {
+    position: relative;
+}
+.footer-arrow-right {
+    position: absolute;
+    left: 369px;
+    top: 17px;
+}
+.footer-arrow-left {
+    position: absolute;
+    top: 17px;
+    left: 47px;
 }
 .button__footer {
     font-family: 'Formular', sans-serif;

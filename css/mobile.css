@@ -540,4 +540,108 @@
     .block-text-subscription {
         width: 328px;
     }
+    .text-questions {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .item-flex-questions {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .video-image {
+        width: 128px;
+        height: 72px;
+    }
+    .play-video {
+        position: absolute;
+        top: 22px;
+        width: 24px;
+        left: 51px;
+    }
+    .question__under-video {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 16px;
+    }
+    .flex-right-questions {
+        display: flex;
+        margin-bottom: 24px;
+    }
+    .right-questions {
+        width: 100%;
+    }
+    .question__about-project {
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .girl-manager {
+        width: 326px;
+    }
+    .question__about-project h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .question__about-project p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .block__contacts p {
+        font-family: 'Source Code Pro', monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: white;
+    }
+    .toomy-footer {
+        position: relative;
+        text-align: center;
+        background-color: black;
+        max-width: 288px;
+        margin: 0 auto;
+    }
+    .item__test-period {
+        position: absolute;
+        text-align: center;
+        background: white;
+        max-width: 320px;
+        margin: 0 auto;
+        top: 284px;
+        left: -10px;
+    }
+    .item__test-period h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .item__test-period p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .button__footer {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 20px 81px;
+    }
+    .button-item {
+        position: absolute;
+        top: 358px;
+        left: -18px;
+    }
+    .footer-arrow-left {
+        position: absolute;
+        top: 13px;
+        left: 18px;
+    }
+    .footer-arrow-right {
+        position: absolute;
+        left: 266px;
+        top: 13px;
+    }
+    .footer {
+        padding-bottom: 153px;
+    }
 }
