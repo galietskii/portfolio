@@ -24,6 +24,7 @@
     .page-navigation {
         top: 16px;
         right: 56px;
+        position: fixed !important;
     }
     .title__start__course {
         margin-top: 16px;
