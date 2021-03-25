@@ -71,8 +71,11 @@
     }
     .right-arrow {
         position: absolute;
-        left: 275px;
+        left: 311px;
         top: 25px;
+    }
+    .second-arrow {
+        left: 275px;
     }
     .item__about-job h4 {
         font-size: 24px;
