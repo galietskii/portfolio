@@ -192,7 +192,7 @@ a {
 }
 .text {
     margin-left: 32px;
-    width: 447px;
+    width: 437px;
 }
 .title-about__button {
     font-style: normal;
@@ -753,6 +753,7 @@ a {
 .modules {
     margin-top: 36px;
 }
+
 .item-module {
     display: inline-block;
     font-family: 'Formular', sans-serif;
@@ -973,6 +974,9 @@ a {
 .subscription-all {
     width: 800px;
     margin-top: 118px;
+}
+.mobile_version {
+    display: none;
 }
 .flex-subscription {
     display: flex;

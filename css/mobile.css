@@ -262,6 +262,7 @@
         background-color: #fff;
         padding-top: 0px;
         margin-right: 23px;
+        margin-left: 25px
     }
     .list__study::after{
         content: '';
@@ -316,7 +317,7 @@
     .item-cards {
         margin-top: 64px;
         flex-wrap: wrap;
-        margin-bottom: 120px;
+        margin-bottom: 0px;
     }
     .logo-photo-card{
         display: none;
@@ -370,7 +371,7 @@
         line-height: 20px;
     }
     .card img {
-        left: 246px;
+        left: 271px;
         top: 119px;
     }
     .info_work-text {
@@ -481,10 +482,16 @@
         line-height: 20px;
         width: 240px;
     }
+    .diplom {
+        margin-top: 32px;
+    }
     .diplom-conteiner {
         display: flex;
         flex-wrap: wrap;
         padding: 0 16px;
+    }
+    .tommy_diplom {
+        margin-top: 64px;
     }
     .tommy_diplom-header_text {
         font-size: 24px;
@@ -493,13 +500,16 @@
     .tommy_diplom-under_header_text {
         font-size: 14px;
         line-height: 20px;
+        margin-top: 47px;
     }
     .diplom img {
         width: 100%;
     }
-    .training-going {
-
-        margin-right: 2%;
+    .flex__all__modules {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        padding-top: 16px;
     }
     .training__text {
         font-size: 24px;
@@ -507,10 +517,19 @@
     }
     .list-of__training {
         flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    .speakers_card-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px;
+        width: 289px;
     }
     .item__lessons {
         font-size: 18px;
         line-height: 24px;
+        margin-bottom: 24px;
     }
     .item__about-lessons {
         font-size: 14px;
@@ -531,7 +550,8 @@
         margin-top: 64px
     }
     .flex-subscription img {
-        margin-left: 33px;
+        margin-left: 52px;
+        background-size: cover;
     }
     .block-text-subscription p {
         width: auto;
@@ -544,12 +564,22 @@
     .text-questions {
         font-size: 24px;
         line-height: 32px;
+        width: 328px;
     }
     .item-flex-questions {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: column-reverse;
+    }
+    .item-questions {
+        margin-top: 64px;
+    }
+    .mobile_version {
+        display: block;
+    }
+    .computer_version {
+        display: none;
     }
     .video-image {
         width: 128px;
