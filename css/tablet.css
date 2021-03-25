@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .text__about__course {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .title {
+        font-style: 'Formular', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .title__start__course {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .title__season {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .title__profession {
+        width: 414px;
+        font-style: normal;
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: bold;
+        margin-top: 56px;
+    }
+    .intro__column-icon {
+        position: absolute;
+        width: 127px;
+        height: 128.07px;
+        left: 55%;
+        top: 239px;
+    }
+}
