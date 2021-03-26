@@ -214,6 +214,12 @@ a {
     line-height: 32px;
     background-color: #00FA9A;
     border: none;
+    transition: 1s;
+}
+.button:hover {
+    background: black;
+    color: #00FA9A;
+    transition: 1s;
 }
 .left-arrow {
     position: absolute;
@@ -590,6 +596,12 @@ a {
     border: none;
     padding: 16px 26px;
     margin-bottom: 46px;
+    transition: 1s;
+}
+.button-card:hover {
+    background: black;
+    color: #00FA9A;
+    transition: 1s;
 }
 .card:after {
     content: '';
@@ -1118,6 +1130,11 @@ a {
 }
 .contacts img {
     margin-left: 16px;
+    transition: 1s;
+}
+.image-contact:hover {
+    background-color: white;
+    transition: 1s;
 }
 .number-contact {
     font-size: 14px;
@@ -1175,6 +1192,12 @@ a {
     border: none;
     background-color: #00FA9A;
     padding: 20px 116px;
+    transition: 1s;
+}
+.button__footer:hover {
+    background-color: #000;
+    color: #00FA9A;
+    transition: 1s;
 }
 
 @import "../css/mobile.css" screen;
