@@ -38,3 +38,21 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+// ACARDION MOBILE VIDEO 
+const mediaQuery = window.matchMedia('(max-width: 400px)');
+if (mediaQuery.matches) {
+  let videos = document.getElementsByClassName('videos');
+  let i;
+
+  for(i = 0; i < videos.length; i++) {
+    videos[i].addEventListener("click", function(){
+      this.classList.toggle("activess");
+      let panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      }else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+}

@@ -23,7 +23,7 @@
     }
     .page-navigation {
         top: 16px;
-        right: 56px;
+        right: 14px;
         position: fixed !important;
     }
     
@@ -111,7 +111,7 @@
         top: 80px;
     }
     .item-video__job {
-        margin-left: 25px;
+        margin-left: 0;
         margin-top: 40px;
     }
     .about__work {
@@ -144,7 +144,6 @@
     }
     .video {
         width: 326px;
-        margin-left: auto;
         text-align: center;
     }
     .item-logo__sign-pay img{
@@ -616,11 +615,11 @@
     .girl-manager {
         width: 326px;
     }
-    .question__about-project h4 {
+    .title-videos {
         font-size: 18px;
         line-height: 24px;
     }
-    .question__about-project p {
+    .text-videos {
         font-size: 14px;
         line-height: 20px;
     }

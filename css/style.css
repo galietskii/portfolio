@@ -1008,6 +1008,9 @@ a {
     background-repeat: no-repeat;
     
 }
+.video_quest {
+    display: none;
+}
 .item-flex-questions {
     display: flex;
     justify-content: space-between;
@@ -1027,14 +1030,14 @@ a {
     width: 50%;
     margin-top: -95px;
 }
-.question__about-project h4{
+.title-videos{
     font-family: 'Formular', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 32px;
 }
-.question__about-project p {
+.text-videos {
     font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: normal;
