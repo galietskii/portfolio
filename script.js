@@ -39,7 +39,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 // ACARDION MOBILE VIDEO 
-const mediaQuery = window.matchMedia('(max-width: 400px)');
+const mediaQuery = window.matchMedia('(max-width: 399px)');
 if (mediaQuery.matches) {
   let videos = document.getElementsByClassName('videos');
   let i;
